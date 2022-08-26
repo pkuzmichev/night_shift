@@ -6,3 +6,4 @@ if __name__ == '__main__':
     
     
 # TODO: add arguments
+# TODO: test (read rgb from image: min 3 tests)
