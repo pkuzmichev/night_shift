@@ -1,4 +1,5 @@
 from PIL import Image
+import sys
 
 kelvin_table = {
     1000: (255, 56, 0),
@@ -24,6 +25,7 @@ kelvin_table = {
 
 def change(self):
     pass
+    
     
 def convert_temp(image, temp):
     r, g, b = kelvin_table[temp]
