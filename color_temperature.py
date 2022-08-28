@@ -21,10 +21,6 @@ kelvin_table = {
     9000: (214, 225, 255),
     9500: (208, 222, 255),
     10000: (204, 219, 255)}
-
-
-def change(self):
-    pass
     
     
 def convert_temp(image, temp):
