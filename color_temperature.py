@@ -23,11 +23,11 @@ kelvin_table = {
     10000: (204, 219, 255)}
     
     
-def convert_temp(image, temp):
+def convert_temp(image, temp, path='img/after/bliss.jpg'):
     r, g, b = kelvin_table[temp]
     matrix = (r / 255.0, 0.0, 0.0, 0.0,
             0.0, g / 255.0, 0.0, 0.0,
             0.0, 0.0, b / 255.0, 0.0)
-    return image.convert('RGB', matrix).save('img/after/bliss.jpg')
+    return image.convert('RGB', matrix).save(path)
 
 
